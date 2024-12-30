@@ -11,23 +11,29 @@ export const authOptions = {
       },
       async authorize(credentials) {
         const { passkey, pin } = credentials || {};
-
-        // Hardcoded credentials
+      
         if (passkey === "Mypasskey" && pin === "1234") {
-          return { id: "1", name: "John Doe", email: "johndoee@example.com" };
+          return { id: "1", name: "John Doe", email: "johndoe@example.com" }; // User object
         }
-
-        // Invalid credentials
-        return null;
-      },
+      
+        // Return null to reject credentials
+        throw new Error("Invalid credentials");
+      }
+      
     }),
   ],
   pages: {
     signIn: "/sign-in", // Custom sign-in page
   },
   callbacks: {
+    async redirect({ url, baseUrl }) {
+      // Redirect to the callback URL or default to profile
+      return url.startsWith(baseUrl) ? url : `${baseUrl}/profile`;
+    },
     async session({ session, token }) {
-      session.user.id = token.id;
+      if (token) {
+        session.user.id = token.id;
+      }
       return session;
     },
     async jwt({ token, user }) {
@@ -37,6 +43,7 @@ export const authOptions = {
       return token;
     },
   },
+  
   secret: process.env.NEXTAUTH_SECRET,
 };
 
