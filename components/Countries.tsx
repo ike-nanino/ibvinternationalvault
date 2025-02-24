@@ -16,28 +16,28 @@ interface Office {
 }
 
 const offices: Office[] = [
-  {
-    city: "Sandton",
-    country: "South Africa",
-    address: "Shop L03-308, Legacy Corner Nelson Mandela Square, Johannesburg, 4320",
-    email: "infosandton@ibvglobal.com",
-    tel: "+ 27 11 783 6101",
-    image: "/assets/images/Sandton.jpg"
-  },
-  {
-    city: "Dubai",
-    country: "United Arab Emirates",
-    address: "Gold and Diamond Park, Sheikh Zayed Road, Dubai, UAE",
-    email: "infodubai@ibvglobal.com",
-    tel: "+ 971 4334 4287",
-    image: "/assets/images/Dubai.jpg"
-  },
+  // {
+  //   city: "Sandton",
+  //   country: "South Africa",
+  //   address: "Shop L03-308, Legacy Corner Nelson Mandela Square, Johannesburg, 4320",
+  //   email: "infosandton@ibvglobal.com",
+  //   tel: "+ 27 11 783 6101",
+  //   image: "/assets/images/Sandton.jpg"
+  // },
+  // {
+  //   city: "Dubai",
+  //   country: "United Arab Emirates",
+  //   address: "Gold and Diamond Park, Sheikh Zayed Road, Dubai, UAE",
+  //   email: "infodubai@ibvglobal.com",
+  //   tel: "+ 971 4334 4287",
+  //   image: "/assets/images/Dubai.jpg"
+  // },
   {
     city: "London",
     country: "United Kingdom",
     address: "46 Park Lane Mayfair, London W1K 1PW, England, UK",
-    email: "infolondon@ibvglobal.com",
-    tel: "+ 44 20 3988 3680",
+    email: "ibvvault@gmail.com",
+    tel: "+ 44 77 9026 1354",
     image: "/assets/images/London.jpg"
   }
 ];
@@ -75,8 +75,8 @@ const Countries = () => {
     <div className="max-w-7xl mx-auto px-4 py-12 bg-gray-50">
 
       <div data-aos="fade-up">
-      <h1 className='font-secondary text-4xl mb-4 text-center'>Our Secure Facilities</h1>
-      <p className='text-sm text-gray-500 text-center mb-8'>9 Ultra Secure Facilities Across 3 Countries. Trusted by 40,000 members globally.</p>
+      <h1 className='font-secondary text-4xl mb-4 text-center'>Our Secure Facility</h1>
+      <p className='text-sm text-gray-500 text-center mb-8'>Trusted by 40,000 members globally.</p>
       </div>
 
         
@@ -88,7 +88,7 @@ const Countries = () => {
         >
           All
         </button>
-        {["South Africa", "United Arab Emirates", "United Kingdom"].map((country) => (
+        {[ "United Kingdom"].map((country) => (
           <button
             key={country}
             className={`flex items-center gap-2 px-4 py-2 ${

@@ -2,9 +2,7 @@ import React from "react";
 
 const ActivityLogs = () => {
   const logs = [
-    { date: "Dec 20, 2024", action: "Deposited 10kg Gold" },
-    { date: "Dec 15, 2024", action: "Withdrawn 5kg Jewelry" },
-    { date: "Dec 10, 2024", action: "Deposited $500,000 Cash" },
+    { date: "10th May, 1999", action: "Deposited One Trunk Box Of Gold Bars" },
   ];
 
   return (
@@ -14,7 +12,7 @@ const ActivityLogs = () => {
         {logs.map((log, index) => (
           <li key={index} className="flex justify-between">
             <span>{log.date}</span>
-            <span>{log.action}</span>
+            <span className='text-green-400'>{log.action}</span>
           </li>
         ))}
       </ul>

@@ -16,7 +16,7 @@ const Profile = () => {
   }
 
   if (!session) {
-    return <p>Unauthorized access. Please sign in again.</p>;
+    return <p>Unauthorized access. Please Check your Pin & sign in again.</p>;
   }
 
   return (
@@ -26,11 +26,11 @@ const Profile = () => {
         <div className="flex items-center space-x-4">
           <Avatar>
             <AvatarImage src="/path-to-avatar.jpg" alt="User Avatar" />
-            <AvatarFallback>{session.user.name?.[0] || "JB"}</AvatarFallback>
+            <AvatarFallback>RG</AvatarFallback>
           </Avatar>
           <div>
-            <h1 className="text-xl font-semibold">Welcome, {session.user.name || "Vault User"}</h1>
-            <p className="text-gray-500">Last login: Dec 26, 2024</p>
+            <h1 className="text-xl font-semibold">Welcome, <span className='text-base font-medium text-gray-600'>Richard Torsten Gilbert</span></h1>
+            <p></p>
           </div>
         </div>
         <Button variant="outline" onClick={() => signOut({ callbackUrl: "/" })}>
