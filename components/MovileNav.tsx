@@ -46,7 +46,7 @@ function MobileNav() {
           className="flex justify-center items-center"
           onClick={() => setIsOpen(!isOpen)}
         >
-          <CiMenuFries className="text-2xl font-bold text-gold" />
+          <CiMenuFries className="text-2xl font-extrabold text-gold" />
         </button>
         </SheetTrigger>
         <SheetContent side='left' className='flex flex-col  border-none shadow-none w-screen h-screen'>

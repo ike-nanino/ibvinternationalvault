@@ -53,7 +53,7 @@ const ActivityLogs = () => {
 
         <div className="flex justify-between">
           <h4 className="text-sm lg:text-base font-semibold">Invoice No. </h4>
-          <p className="text-gray-400 font-normal text-sm lg:text-base">IBV/INV589/1999</p>
+          <p className="text-gray-400 font-normal text-sm lg:text-base">IBV/INV.90542/2017</p>
         </div>
 
         <div className="flex justify-between">
@@ -72,12 +72,12 @@ const ActivityLogs = () => {
         </div>
 
         <div className="flex justify-between">
-          <h4 className='text-sm lg:text-base'>Duration (May, 2017 - May, 2025) </h4>
+          <h4 className='text-sm lg:text-base'>Duration (May, 2017 - Till Date) </h4>
           <p className="text-gray-400 font-normal text-sm lg:text-base">$21,792</p>
         </div>
         <div className="flex justify-between">
           <h4 className='text-sm lg:text-base'> Balance </h4>
-          <p className="text-red-500 font-bold text-sm lg:text-base">21,100</p>
+          <p className="text-red-500 font-bold text-sm lg:text-base">$21,100</p>
         </div>
       </div>
     

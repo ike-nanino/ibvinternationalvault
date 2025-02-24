@@ -31,7 +31,7 @@ const VaultDetails = () => {
       <div className="space-y-4">
         <div className="flex justify-between">
           <p className="font-semibold">Vault Serial Number</p>
-          <p className="text-gray-500 font-normal text-base">AGA******</p>
+          <p className="text-gray-500 font-normal text-base">IBV******</p>
         </div>
         <div className="flex justify-between">
           <p className="font-semibold">Vault Size</p>
