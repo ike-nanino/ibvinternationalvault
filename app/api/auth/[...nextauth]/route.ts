@@ -27,8 +27,16 @@ export const authOptions = {
   },
   callbacks: {
     async redirect({ url, baseUrl }) {
-      // Redirect to the callback URL or default to profile
-      return url.startsWith(baseUrl) ? url : `${baseUrl}/profile`;
+      // Check if this is a sign-out operation
+      if (url.includes('signout') || url.includes('sign-out')) {
+        return '/';
+      }
+      // Handle sign-in callback
+      if (url.includes('callback')) {
+        return baseUrl;
+      }
+      // For all other cases, maintain existing logic
+      return url.startsWith(baseUrl) ? url : baseUrl;
     },
     async session({ session, token }) {
       if (token) {

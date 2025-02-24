@@ -11,10 +11,12 @@ const SignIn = () => {
   const [passkey, setPasskey] = useState("");
   const [pin, setPin] = useState("");
   const [error, setError] = useState<string | null>(null);
+  const [isLoading, setIsLoading] = useState(false);
   const router = useRouter();
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
+    setIsLoading(true);
 
     const res = await signIn("credentials", {
       passkey,
@@ -26,6 +28,7 @@ const SignIn = () => {
       router.push("/profile");
     } else {
       setError("Invalid passkey or PIN. Please try again.");
+      setIsLoading(false);
     }
   };
 
@@ -80,8 +83,19 @@ const SignIn = () => {
             />
           </div>
 
-          <Button type="submit" className="w-full bg-gold hover:bg-gold">
-            Access Vault
+          <Button 
+            type="submit" 
+            className="w-full bg-gold hover:bg-gold relative"
+            disabled={isLoading}
+          >
+            <span className={`${isLoading ? 'opacity-0' : 'opacity-100'}`}>
+              Access Vault
+            </span>
+            {isLoading && (
+              <span className="absolute inset-0 flex items-center justify-center animate-pulse">
+                Accessing Vault...
+              </span>
+            )}
           </Button>
         </form>
       </div>

@@ -22,18 +22,18 @@ const Profile = () => {
   return (
     <div className="container mx-auto p-6">
       {/* Header */}
-      <div className="flex items-center justify-between bg-white p-6 rounded-md shadow-md">
+      <div className="flex items-center justify-between bg-white px-1 py-3 lg:p-6 rounded-md shadow-md">
         <div className="flex items-center space-x-4">
           <Avatar>
             <AvatarImage src="/path-to-avatar.jpg" alt="User Avatar" />
             <AvatarFallback>RG</AvatarFallback>
           </Avatar>
           <div>
-            <h1 className="text-xl font-semibold">Welcome, <span className='text-base font-medium text-gray-600'>Richard Torsten Gilbert</span></h1>
-            <p></p>
+            <h1 className="text-sm lg:text-xl font-medium lg:font-semibold">Welcome, <span className='text-sm lg:text-base font-medium text-gray-600'>Richard T. Gilbert</span></h1>
+            <p className='text-xs lg:text-sm text-gray-400'>107 W Portland St. Phoenix, AZ 85003</p>
           </div>
         </div>
-        <Button variant="outline" onClick={() => signOut({ callbackUrl: "/" })}>
+        <Button variant="outline" onClick={() => signOut({ redirect: true, callbackUrl: "/" })}>
           Logout
         </Button>
       </div>
