@@ -44,7 +44,7 @@ const Profile = () => {
           <TabsList className="mb-6">
             <TabsTrigger value="dashboard">Dashboard</TabsTrigger>
             <TabsTrigger value="vaults">Vault Details</TabsTrigger>
-            <TabsTrigger value="activity">Activity Logs</TabsTrigger>
+            <TabsTrigger value="activity">Vault Invoice #</TabsTrigger>
           </TabsList>
 
           <TabsContent value="dashboard">
