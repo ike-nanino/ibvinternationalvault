@@ -70,7 +70,7 @@ const SignIn = () => {
               htmlFor="pin"
               className="block text-sm font-medium text-gray-700"
             >
-              4-Digit PIN
+              IBV PIN
             </label>
             <Input
               id="pin"
