@@ -12,8 +12,8 @@ export const authOptions = {
       async authorize(credentials) {
         const { passkey, pin } = credentials || {};
       
-        if (passkey === "Mypasskey" && pin === "1234") {
-          return { id: "1", name: "John Doe", email: "johndoe@example.com" }; // User object
+        if (passkey === "IBVIV/4599/04312" && pin === "IV2312") {
+          return { id: "1", name: "RICHARD GILBERT", email: "johndoe@example.com" }; // User object
         }
       
         // Return null to reject credentials

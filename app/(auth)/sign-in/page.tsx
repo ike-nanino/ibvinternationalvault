@@ -27,7 +27,7 @@ const SignIn = () => {
     if (res?.ok) {
       router.push("/profile");
     } else {
-      setError("Invalid passkey or PIN. Please try again.");
+      setError("Invalid Passkey or PIN. Please try again.");
       setIsLoading(false);
     }
   };

@@ -46,14 +46,14 @@ const Footer = () => {
           <h3 className="text-gold font-semibold mb-4">Branches</h3>
           <ul className="space-y-2 text-sm">
             <li>London, United Kingdom</li>
-            <li>Dubai, UAE</li>
+            {/* <li>Dubai, UAE</li>
             <li>Cape Town, South Africa</li>
             <li>Park Square, South Africa</li>
             <li>Gateway, South Africa</li>
             <li>Musgrave, South Africa</li>
             <li>Sandton, South Africa</li>
             <li>Alice Lane, South Africa</li>
-            <li>Rosebank, South Africa</li>
+            <li>Rosebank, South Africa</li> */}
           </ul>
         </div>
 
@@ -61,8 +61,9 @@ const Footer = () => {
         <div>
           <h3 className="text-gold font-semibold mb-4">Follow Us</h3>
           <div className="flex space-x-4">
-            <FaInstagram />
-            <FaFacebook />
+            {/* <FaInstagram />
+            <FaFacebook /> */}
+            
           </div>
         </div>
       </div>
