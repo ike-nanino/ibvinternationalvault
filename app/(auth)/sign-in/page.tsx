@@ -78,7 +78,7 @@ const SignIn = () => {
               placeholder="Enter your 4-digit PIN"
               value={pin}
               onChange={(e) => setPin(e.target.value)}
-              maxLength={4}
+              maxLength={6}
               required
             />
           </div>
