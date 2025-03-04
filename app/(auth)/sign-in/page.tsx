@@ -75,7 +75,7 @@ const SignIn = () => {
             <Input
               id="pin"
               type="password"
-              placeholder="Enter your 4-digit PIN"
+              placeholder="Enter your 6-digit PIN"
               value={pin}
               onChange={(e) => setPin(e.target.value)}
               maxLength={6}
