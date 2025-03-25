@@ -129,12 +129,12 @@ const Countries = () => {
                     {office.email}
                   </a>
                 </div>
-                <div>
+                {/* <div>
                   <strong className="block text-gray-600">Tel:</strong>
                   <a href={`tel:${office.tel}`} className="text-gray-500 hover:text-primary">
                     {office.tel}
                   </a>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
