@@ -24,9 +24,9 @@ function Contact() {
         </span>
       </h2>
       
-      <button className='bg-[#C4A962] text-white px-8 py-3 mt-8 hover:bg-[#b39855] transition-colors'>
+      {/* <button className='bg-[#C4A962] text-white px-8 py-3 mt-8 hover:bg-[#b39855] transition-colors'>
         CONTACT US
-      </button>
+      </button> */}
     </div>
   )
 }

@@ -6,7 +6,7 @@ const VaultDetails = () => {
       <h2 className="text-lg font-semibold mb-4">Vault Details</h2>
       <div className="flex justify-between">
           <p className="font-semibold">Total Gold</p>
-          <p className="text-gray-500 font-normal text-base">18,715 troy oz</p>
+          <p className="text-gray-500 font-normal text-base">153KG Of Alluvial Gold Bars</p>
         </div>
         <div className="flex justify-between">
           <p className="font-normal">Karat</p>

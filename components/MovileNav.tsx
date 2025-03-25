@@ -2,7 +2,11 @@
 
 import { usePathname } from "next/navigation"
 import { Sheet, SheetContent, SheetTrigger, SheetTitle } from "./ui/sheet";
-import { CiMenuFries } from 'react-icons/ci'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faBars } from '@fortawesome/free-solid-svg-icons'
+import {config} from '@fortawesome/fontawesome-svg-core';
+import '@fortawesome/fontawesome-svg-core/styles.css'
+config.autoAddCss = false;
 import Link from "next/link";
 import { useState } from "react";
 
@@ -46,7 +50,7 @@ function MobileNav() {
           className="flex justify-center items-center"
           onClick={() => setIsOpen(!isOpen)}
         >
-          <CiMenuFries className="text-2xl font-extrabold text-gold" />
+          <FontAwesomeIcon icon={faBars} className="text-2xl font-extrabold text-gold" />
         </button>
         </SheetTrigger>
         <SheetContent side='left' className='flex flex-col  border-none shadow-none w-screen h-screen'>

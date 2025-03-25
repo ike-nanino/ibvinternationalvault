@@ -26,11 +26,11 @@ const Profile = () => {
         <div className="flex items-center space-x-4">
           <Avatar>
             <AvatarImage src="/path-to-avatar.jpg" alt="User Avatar" />
-            <AvatarFallback>RG</AvatarFallback>
+            <AvatarFallback>FS</AvatarFallback>
           </Avatar>
           <div>
-            <h1 className="text-sm lg:text-xl font-medium lg:font-semibold">Welcome, <span className='text-sm lg:text-base font-medium text-gray-600'>Richard T. Gilbert</span></h1>
-            <p className='text-xs lg:text-sm text-gray-400'>107 W Portland St. Phoenix, AZ 85003</p>
+            <h1 className="text-sm lg:text-xl font-medium lg:font-semibold">Welcome, <span className='text-sm lg:text-base font-medium text-gray-600'>Fernando S. Smith</span></h1>
+            <p className='text-xs lg:text-sm text-gray-400'>Av. Pedro López Meca, 26, 308777 Bolnuevo, Murcia</p>
           </div>
         </div>
         <Button variant="outline" onClick={() => signOut({ redirect: true, callbackUrl: "/" })}>

@@ -31,7 +31,7 @@ function AboutUs() {
       <div className="relative w-full h-auto overflow-hidden">
         <div className="relative h-[460px] w-full">
           <Image
-            src="/assets/images/map.jpg"
+            src="/assets/images/syd.jpg"
             alt="Hotel exterior"
             fill
             className="object-cover"
@@ -72,11 +72,11 @@ function AboutUs() {
           From the Desk of Managing Director
           </h2>
           <p className="text-gray-700 mb-16 pr-16">
-          At IBV London, we understand the importance of securing your valuable possessions. Located at 46 Park Lane, Mayfair in the prestigious Grade II listed Stanhope House in London, we are on a mission to redefine your safekeeping experience. We welcome you to experience our impregnable security and unmatchable customer service that will guarantee peace of mind.
+          At IBV Sydney, we understand the importance of securing your valuable possessions. We welcome you to experience our impregnable security and unmatchable customer service that will guarantee peace of mind.
           </p>
 
           <p> Sean Hoey <br/>
-          <span>MD, IBV London</span> </p>
+          <span>MD, IBV Sydney</span> </p>
         </div>
       </div>
 

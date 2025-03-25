@@ -4,7 +4,7 @@ import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css"; 
 import Image from 'next/image';
-import { ZA, AE, GB } from 'country-flag-icons/react/3x2'
+import { ZA, AE, GB, AU } from 'country-flag-icons/react/3x2'
 
 interface Office {
   city: string;
@@ -33,12 +33,12 @@ const offices: Office[] = [
   //   image: "/assets/images/Dubai.jpg"
   // },
   {
-    city: "London",
-    country: "United Kingdom",
-    address: "46 Park Lane Mayfair, London W1K 1PW, England, UK",
-    email: "ibvvault@gmail.com",
+    city: "Sydney",
+    country: "Australia",
+    address: "298 Pitt St, Sydney NSW 2000, Australia",
+    email: "ibvinternationalv@gmail.com",
     tel: "+ 44 77 9026 1354",
-    image: "/assets/images/London.jpg"
+    image: "/assets/images/sydney.jpg"
   }
 ];
 
@@ -60,8 +60,8 @@ const Countries = () => {
         return <ZA className="w-6 h-4" />;
       case "United Arab Emirates":
         return <AE className="w-6 h-4" />;
-      case "United Kingdom":
-        return <GB className="w-6 h-4" />;
+      case "Australia":
+        return <AU className="w-6 h-4" />;
       default:
         return null;
     }
@@ -88,7 +88,7 @@ const Countries = () => {
         >
           All
         </button>
-        {[ "United Kingdom"].map((country) => (
+        {[ "Australia"].map((country) => (
           <button
             key={country}
             className={`flex items-center gap-2 px-4 py-2 ${

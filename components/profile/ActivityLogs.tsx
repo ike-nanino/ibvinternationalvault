@@ -2,7 +2,7 @@ import React from "react";
 
 const ActivityLogs = () => {
   const logs = [
-    { date: "10th May, 1999", action: "Deposited One Trunk Box Of" + (window.innerWidth >= 1024 ? " Gold Bars" : "...") },
+    { date: "13th July, 1979", action: "Deposited 153KG Of Alluvial" + (window.innerWidth >= 1024 ? " Gold Bars" : "...") },
   ];
 
   return (
@@ -23,61 +23,61 @@ const ActivityLogs = () => {
 
         <div className="flex justify-between">
           <h4 className="text-sm lg:text-base font-semibold">Invoice No. </h4>
-          <p className="text-gray-400 font-normal text-sm lg:text-base">IBV/INV589/1999</p>
+          <p className="text-gray-400 font-normal text-sm lg:text-base">IBV/INV589/1979</p>
         </div>
 
         <div className="flex justify-between">
           <h4 className='text-sm lg:text-base'>Amount Paid </h4>
-          <p className="text-green-500 font-bold text-base">$47,000</p>
+          <p className="text-green-500 font-bold text-base">$23,760</p>
         </div>
 
         <div className="flex justify-between">
           <h4 className='text-sm lg:text-base'>Deposit Fee per Month </h4>
-          <p className="text-gray-400 font-normal text-base">$227</p>
+          <p className="text-gray-400 font-normal text-base">$90</p>
         </div>
 
         <div className="flex justify-between">
           <h4 className='text-sm lg:text-base'>Deposit Fee per Year </h4>
-          <p className="text-gray-400 font-normal text-sm lg:text-base">$2,724</p>
+          <p className="text-gray-400 font-normal text-sm lg:text-base">$1,080</p>
         </div>
 
         <div className="flex justify-between">
-          <h4 className='text-sm lg:text-base'>Duration (May, 1999 - May, 2017) </h4>
-          <p className="text-gray-400 font-normal text-sm lg:text-base">$46,308</p>
+          <h4 className='text-sm lg:text-base'>Duration (July, 1979 - July, 2022) </h4>
+          <p className="text-gray-400 font-normal text-sm lg:text-base">$46,440</p>
         </div>
         <div className="flex justify-between pb-9">
           <h4 className='text-sm lg:text-base'> Balance </h4>
-          <p className="text-green-500 font-bold text-sm lg:text-base">$692</p>
+          <p className="text-red-500 font-bold text-sm lg:text-base">$22,680</p>
         </div>
 
 
         <div className="flex justify-between">
           <h4 className="text-sm lg:text-base font-semibold">Invoice No. </h4>
-          <p className="text-gray-400 font-normal text-sm lg:text-base">IBV/INV.90542/2017</p>
+          <p className="text-gray-400 font-normal text-sm lg:text-base">IBV/INV.90542/2022</p>
         </div>
 
         <div className="flex justify-between">
           <h4 className='text-sm lg:text-base'>Amount Paid </h4>
-          <p className="text-green-500 font-bold text-sm lg:text-base">$692</p>
+          <p className="text-red-500 font-bold text-sm lg:text-base">$22,680</p>
         </div>
 
         <div className="flex justify-between">
           <h4 className='text-sm lg:text-base'>Deposit Fee per Month </h4>
-          <p className="text-gray-400 font-normal text-sm lg:text-base">$227</p>
+          <p className="text-gray-400 font-normal text-sm lg:text-base">$90</p>
         </div>
 
         <div className="flex justify-between">
           <h4 className='text-sm lg:text-base'>Deposit Fee per Year </h4>
-          <p className="text-gray-400 font-normal text-sm lg:text-base">$2,724</p>
+          <p className="text-gray-400 font-normal text-sm lg:text-base">$1,080</p>
         </div>
 
         <div className="flex justify-between">
-          <h4 className='text-sm lg:text-base'>Duration (May, 2017 - Till Date) </h4>
-          <p className="text-gray-400 font-normal text-sm lg:text-base">$21,792</p>
+          <h4 className='text-sm lg:text-base'>Duration (May, 2022 - Till Date) </h4>
+          <p className="text-gray-400 font-normal text-sm lg:text-base">$3,240</p>
         </div>
         <div className="flex justify-between">
           <h4 className='text-sm lg:text-base'> Balance </h4>
-          <p className="text-red-500 font-bold text-sm lg:text-base">$21,100</p>
+          <p className="text-red-500 font-bold text-sm lg:text-base">$25,920</p>
         </div>
       </div>
     
