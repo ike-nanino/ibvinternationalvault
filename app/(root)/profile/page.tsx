@@ -12,11 +12,11 @@ const Profile = () => {
   const { data: session, status } = useSession();
 
   if (status === "loading") {
-    return <p>Loading...</p>;
+    return <p className="text-center p-4 lg:p-12 text-green-500">Loading...</p>;
   }
 
   if (!session) {
-    return <p>Unauthorized access. Please Check your Pin & sign in again.</p>;
+    return <p className="text-center p-4 lg:p-12 text-red-500">Unauthorized access. Please Check your Pin & sign in again.</p>;
   }
 
   return (
