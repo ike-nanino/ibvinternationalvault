@@ -12,7 +12,7 @@ const Profile = () => {
   const { data: session, status } = useSession();
 
   if (status === "loading") {
-    return <p className="text-center p-4 lg:p-12 text-green-500">Loading...</p>;
+    return <p className="text-center p-4 lg:p-12 text-green-500 animate-pulse">Loading...</p>;
   }
 
   if (!session) {
