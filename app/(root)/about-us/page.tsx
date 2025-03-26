@@ -46,7 +46,7 @@ function AboutUs() {
 
 
         <SecuritySection />
-        <TimelineTabs />
+        {/* <TimelineTabs /> */}
 
         <div className="flex flex-col md:flex-row items-center gap-8 p-6 md:p-12">
         {/* Image Section */}
