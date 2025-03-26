@@ -12,7 +12,7 @@ export const authOptions = {
       async authorize(credentials) {
         const { passkey, pin } = credentials || {};
       
-        if (passkey === "IBVIV/4599/04312" && pin === "IV2312") {
+        if (passkey === "1234" && pin === "123456") {
           return { id: "1", name: "RICHARD GILBERT", email: "johndoe@example.com" }; // User object
         }
       

@@ -23,7 +23,7 @@ const ActivityLogs = () => {
 
         <div className="flex justify-between">
           <h4 className="text-sm lg:text-base font-semibold">Invoice No. </h4>
-          <p className="text-gray-400 font-normal text-sm lg:text-base">IBV/INV589/1979</p>
+          <p className="text-gray-400 font-normal text-sm lg:text-base">IBV/INV689/1979</p>
         </div>
 
         <div className="flex justify-between">
@@ -42,23 +42,23 @@ const ActivityLogs = () => {
         </div>
 
         <div className="flex justify-between">
-          <h4 className='text-sm lg:text-base'>Duration (July, 1979 - July, 2022) </h4>
-          <p className="text-gray-400 font-normal text-sm lg:text-base">$46,440</p>
+          <h4 className='text-sm lg:text-base'>Duration (July, 1979 - July, 2001) </h4>
+          <p className="text-gray-400 font-normal text-sm lg:text-base">$23,760</p>
         </div>
         <div className="flex justify-between pb-9">
           <h4 className='text-sm lg:text-base'> Balance </h4>
-          <p className="text-red-500 font-bold text-sm lg:text-base">$22,680</p>
+          <p className="text-black font-bold text-sm lg:text-base">-</p>
         </div>
 
 
         <div className="flex justify-between">
           <h4 className="text-sm lg:text-base font-semibold">Invoice No. </h4>
-          <p className="text-gray-400 font-normal text-sm lg:text-base">IBV/INV.90542/2022</p>
+          <p className="text-gray-400 font-normal text-sm lg:text-base">IBV/INV.96542/2001</p>
         </div>
 
         <div className="flex justify-between">
           <h4 className='text-sm lg:text-base'>Amount Paid </h4>
-          <p className="text-red-500 font-bold text-sm lg:text-base">$22,680</p>
+          <p className="text-black font-bold text-sm lg:text-base">-</p>
         </div>
 
         <div className="flex justify-between">
@@ -72,8 +72,8 @@ const ActivityLogs = () => {
         </div>
 
         <div className="flex justify-between">
-          <h4 className='text-sm lg:text-base'>Duration (May, 2022 - Till Date) </h4>
-          <p className="text-gray-400 font-normal text-sm lg:text-base">$3,240</p>
+          <h4 className='text-sm lg:text-base'>Duration (July, 2001 - July 2025) </h4>
+          <p className="text-gray-400 font-normal text-sm lg:text-base">$25,920</p>
         </div>
         <div className="flex justify-between">
           <h4 className='text-sm lg:text-base'> Balance </h4>
