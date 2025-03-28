@@ -5,7 +5,7 @@ const DashboardSummary = () => {
     <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
       <div className="bg-white p-6 rounded-md shadow-md">
         <h2 className="text-lg font-semibold">Item Deposit Value <span className='text-base font-medium text-gray-600'>(2001)</span> </h2>
-        <p className="text-xl text-gray-600 font-medium">$4,536,477.54</p>
+        <p className="text-xl text-gray-600 font-medium">$9,538,350.03</p>
       </div>
       <div className="bg-white p-6 rounded-md shadow-md">
         <h2 className="text-lg font-semibold">Items Stored</h2>
